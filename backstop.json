@@ -1,0 +1,217 @@
+{
+  "id": "sanity_test",
+  "viewports": [
+    {
+      "name": "phone",
+      "width": 320,
+      "height": 480
+    },
+    {
+      "name": "square",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "name": "tablet_h",
+      "width": 1024,
+      "height": 768
+    }
+  ],
+  "onBeforeScript": "",
+  "onReadyScript": "",
+  "scenarios": [
+    {
+      "label": "noSelectors",
+      "url": "./examples/featureTests/index.html",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectorExpansion": true,
+      "selectors": [],
+      "readySelector": "body._READY",
+      "readyEvent": "",
+      "delay": null,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions" : true,
+      "onBeforeScript": "",
+      "onReadyScript": ""
+    },
+    {
+      "label": "noSelectors_noReadyOrDelayProps",
+      "url": "./examples/featureTests/index.html",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectorExpansion": true,
+      "selectors": [],
+      "readySelector": "",
+      "readyEvent": "",
+      "delay": null,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions" : true,
+      "onBeforeScript": "",
+      "onReadyScript": ""
+    },
+    {
+      "label": "noSelectors_readyEvent",
+      "url": "./examples/featureTests/index.html",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectorExpansion": true,
+      "selectors": [],
+      "readySelector": "",
+      "readyEvent": "",
+      "delay": null,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions" : true,
+      "onBeforeScript": "",
+      "onReadyScript": ""
+    },
+    {
+      "label": "noSelectors_delay",
+      "url": "./examples/featureTests/index.html",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectorExpansion": true,
+      "selectors": [],
+      "readySelector": "",
+      "readyEvent": "",
+      "delay": 2000,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions" : true,
+      "onBeforeScript": "",
+      "onReadyScript": ""
+    },
+    {
+      "label": "notExpanded",
+      "url": "./examples/featureTests/index.html",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectorExpansion": false,
+      "selectors": [
+        "document",
+        "body",
+        "h1",
+        "h2"
+      ],
+      "readySelector": "body._READY",
+      "readyEvent": "",
+      "delay": null,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions" : true,
+      "onBeforeScript": "",
+      "onReadyScript": ""
+    },
+    {
+      "label": "isExpanded",
+      "url": "./examples/featureTests/index.html",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectorExpansion": true,
+      "selectors": [
+        "document",
+        "body",
+        "h1",
+        "h2"
+      ],
+      "readySelector": "body._READY",
+      "readyEvent": "",
+      "delay": null,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions" : true,
+      "onBeforeScript": "",
+      "onReadyScript": ""
+    },
+    {
+      "label": "notVisible",
+      "url": "./examples/featureTests/index.html",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectorExpansion": true,
+      "selectors": [
+        ".displayNone"
+      ],
+      "readySelector": "body._READY",
+      "readyEvent": "",
+      "delay": null,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions" : true,
+      "onBeforeScript": "",
+      "onReadyScript": ""
+    },
+    {
+      "label": "notFound",
+      "url": "./examples/featureTests/index.html",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectorExpansion": true,
+      "selectors": [
+        ".monkey"
+      ],
+      "readySelector": "body._READY",
+      "readyEvent": "",
+      "delay": null,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions" : true,
+      "onBeforeScript": "",
+      "onReadyScript": ""
+    },
+    {
+      "label": "hideSelectors",
+      "url": "./examples/featureTests/index.html",
+      "hideSelectors": [".jumbotron"],
+      "removeSelectors": [],
+      "selectorExpansion": true,
+      "selectors": [],
+      "readySelector": "body._READY",
+      "readyEvent": "",
+      "delay": null,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions" : true,
+      "onBeforeScript": "",
+      "onReadyScript": ""
+    },
+    {
+      "label": "removeSelectors",
+      "url": "./examples/featureTests/index.html",
+      "hideSelectors": [],
+      "removeSelectors": [".jumbotron"],
+      "selectorExpansion": true,
+      "selectors": [],
+      "readySelector": "body._READY",
+      "readyEvent": "",
+      "delay": null,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions" : true,
+      "onBeforeScript": "",
+      "onReadyScript": ""
+    },
+    {
+      "label": "onReadyScript",
+      "url": "./examples/featureTests/index.html",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectorExpansion": true,
+      "selectors": [],
+      "readySelector": "",
+      "readyEvent": "",
+      "delay": null,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions" : true,
+      "onBeforeScript": "",
+      "onReadyScript": "onReady.js",
+      "someOnReadyScriptParameter": "body._READY"
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report"
+  },
+  "asyncCaptureLimit": 10,
+  "casperFlags": [],
+  "engine": "chromy",
+  "report": ["browser"],
+  "debug": false,
+  "debugWindow": false
+}
