@@ -199,6 +199,36 @@
       "onBeforeScript": "",
       "onReadyScript": "onReady.js",
       "someOnReadyScriptParameter": "body._READY"
+    },
+    {
+      "label": "misMatchThreshold",
+      "url": "./examples/featureTests/index.html",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectorExpansion": true,
+      "selectors": [],
+      "readySelector": "",
+      "readyEvent": "_READY",
+      "delay": null,
+      "misMatchThreshold" : 1.5,
+      "requireSameDimensions" : true,
+      "onBeforeScript": "",
+      "onReadyScript": ""
+    },
+    {
+      "label": "requireSameDimensions",
+      "url": "./examples/featureTests/index.html",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectorExpansion": true,
+      "selectors": [],
+      "readySelector": "",
+      "readyEvent": "_READY",
+      "delay": null,
+      "misMatchThreshold" : 10,
+      "requireSameDimensions" : false,
+      "onBeforeScript": "",
+      "onReadyScript": ""
     }
   ],
   "paths": {
