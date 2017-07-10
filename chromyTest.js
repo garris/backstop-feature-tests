@@ -24,7 +24,7 @@ c1 = chromy
       console[consoleObj.level]((consoleObj.level).toUpperCase() + ' > ', text);
     }
   })
-  .goto('examples/myCoolProject/index.html');
+  .goto('examples/featureTests/index.html');
 
 // let checkText = openedIndexFile.evaluate(() => {
 //     return document.getElementsByTagName('h1')[0].innerText;
@@ -33,9 +33,9 @@ c1 = chromy
 //     console.log('checkText >', result);
 //   });
 
-c2 = onReady(c1, null, {name: "monkey"})
-            .wait(500)
-            .result(_ => 'NOT_EXIST');
+// c2 = onReady(c1, null, {name: "monkey"})
+//             .wait(500)
+//             .result(_ => 'NOT_EXIST');
 
 
 
@@ -52,7 +52,7 @@ c2 = onReady(c1, null, {name: "monkey"})
 // var result = doesItExist
   // .screenshot()
 
-c2
+c1
   .screenshotMultipleSelectors(
     ["body", "h1", "h2"],
     handlescreenshots,
