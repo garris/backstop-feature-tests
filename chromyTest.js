@@ -13,8 +13,6 @@ function captureAndSave(chromyObj, selector) {
       .result(png => console.log('found = ', !!png))
 }
 
-
-
 let chromy = new Chromy({chromeFlags: ['--window-size=320,480'], visible: true});
 
 c1 = chromy
@@ -74,6 +72,12 @@ c1
 function handlescreenshots(error, png, index, selectors, sub){
   console.log('>>>',error, selectors[index], sub);
   fs.writeFileSync(`./screens/${selectors[index]}_${sub}.png`, png);
+  return new Promise((resolve, reject) => {
+    setTimeout(_ => {
+      console.log('TIME');
+      resolve();
+    }, 3000)
+  })
 }
 
 
