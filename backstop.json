@@ -87,9 +87,6 @@
       "removeSelectors": [],
       "selectorExpansion": false,
       "selectors": [
-        "document",
-        "body",
-        "h1",
         "h2"
       ],
       "readySelector": "body._READY",
@@ -210,7 +207,7 @@
       "readySelector": "",
       "readyEvent": "_READY",
       "delay": null,
-      "misMatchThreshold" : 1.5,
+      "misMatchThreshold" : 10,
       "requireSameDimensions" : true,
       "onBeforeScript": "",
       "onReadyScript": ""
@@ -225,7 +222,7 @@
       "readySelector": "",
       "readyEvent": "_READY",
       "delay": null,
-      "misMatchThreshold" : 10,
+      "misMatchThreshold" : 20,
       "requireSameDimensions" : false,
       "onBeforeScript": "",
       "onReadyScript": ""
