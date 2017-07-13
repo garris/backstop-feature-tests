@@ -198,6 +198,21 @@
       "someOnReadyScriptParameter": "body._READY"
     },
     {
+      "label": "onBeforeScript",
+      "url": "https://garris.github.io/BackstopJS/examples/featureTests/",
+      "hideSelectors": [],
+      "removeSelectors": [".jumbotron"],
+      "selectorExpansion": true,
+      "selectors": [],
+      "readySelector": "body._READY",
+      "readyEvent": "",
+      "delay": null,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions" : true,
+      "onBeforeScript": "setCookies.js",
+      "onReadyScript": ""
+    },
+    {
       "label": "misMatchThreshold",
       "url": "./examples/featureTests/index.html",
       "hideSelectors": [],
