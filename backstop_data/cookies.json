@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://garris.github.io/",
+    "expirationDate": 1528614000,
+    "hostOnly": false,
+    "httpOnly": false,
+    "name": "test2",
+    "sameSite": "no_restriction",
+    "secure": false,
+    "session": false,
+    "storeId": "0",
+    "value": "XYZ",
+    "id": 1000
+  },
+  {
+    "url": "https://garris.github.io/",
+    "expirationDate": 1528614000,
+    "hostOnly": false,
+    "httpOnly": false,
+    "name": "test",
+    "sameSite": "no_restriction",
+    "secure": false,
+    "session": false,
+    "storeId": "0",
+    "value": "ABCDE",
+    "id": 1001
+  },
+  {
+    "url": "https://garris.github.io/",
+    "expirationDate": 1528614000,
+    "hostOnly": false,
+    "httpOnly": false,
+    "name": "test3",
+    "sameSite": "no_restriction",
+    "secure": false,
+    "session": false,
+    "storeId": "0",
+    "value": "FOO",
+    "id": 1001
+  }
+]

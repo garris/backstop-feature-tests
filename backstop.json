@@ -209,7 +209,7 @@
       "delay": null,
       "misMatchThreshold" : 0.1,
       "requireSameDimensions" : true,
-      "onBeforeScript": "setCookies.js",
+      "onBeforeScript": "onBefore.js",
       "onReadyScript": ""
     },
     {
