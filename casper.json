@@ -87,9 +87,6 @@
       "removeSelectors": [],
       "selectorExpansion": false,
       "selectors": [
-        "document",
-        "body",
-        "h1",
         "h2"
       ],
       "readySelector": "body._READY",
@@ -125,7 +122,7 @@
       "url": "./examples/featureTests/index.html",
       "hideSelectors": [],
       "removeSelectors": [],
-      "selectorExpansion": false,
+      "selectorExpansion": true,
       "selectors": [
         ".displayNone"
       ],
@@ -142,7 +139,7 @@
       "url": "./examples/featureTests/index.html",
       "hideSelectors": [],
       "removeSelectors": [],
-      "selectorExpansion": false,
+      "selectorExpansion": true,
       "selectors": [
         ".monkey"
       ],
@@ -197,7 +194,7 @@
       "misMatchThreshold" : 0.1,
       "requireSameDimensions" : true,
       "onBeforeScript": "",
-      "onReadyScript": "onReady.js",
+      "onReadyScript": "onReadyCasper.js",
       "someOnReadyScriptParameter": "body._READY"
     },
     {
@@ -212,7 +209,7 @@
       "delay": null,
       "misMatchThreshold" : 0.1,
       "requireSameDimensions" : true,
-      "onBeforeScript": "onBefore.js",
+      "onBeforeScript": "onBeforeCasper.js",
       "onReadyScript": ""
     },
     {
@@ -255,7 +252,7 @@
   },
   "asyncCaptureLimit": 10,
   "casperFlags": [],
-  "engine": "chromy",
+  "engine": "phantom",
   "report": ["browser"],
   "debug": false,
   "debugWindow": false
