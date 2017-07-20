@@ -33,7 +33,8 @@
       "misMatchThreshold" : 0.1,
       "requireSameDimensions" : true,
       "onBeforeScript": "",
-      "onReadyScript": ""
+      "onReadyScript": "",
+      "hostFlags": ["--ignore-certificate-errors"]
     },
     {
       "label": "noSelectors_noReadyOrDelayProps",
