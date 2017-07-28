@@ -88,10 +88,13 @@
       "removeSelectors": [],
       "selectorExpansion": false,
       "selectors": [
-        "document",
         "body",
-        "h1",
-        "h2"
+        ".pagination",
+        ".page-item:nth-child(1) .page-link",
+        ".page-item:nth-child(2) .page-link",
+        ".page-item:nth-child(3) .page-link",
+        ".page-item:nth-child(4) .page-link",
+        ".page-item:nth-child(5) .page-link"
       ],
       "readySelector": "body._READY",
       "readyEvent": "",
@@ -108,10 +111,9 @@
       "removeSelectors": [],
       "selectorExpansion": true,
       "selectors": [
-        "document",
         "body",
-        "h1",
-        "h2"
+        ".pagination",
+        ".page-item .page-link"
       ],
       "readySelector": "body._READY",
       "readyEvent": "",
@@ -256,7 +258,7 @@
   },
   "asyncCaptureLimit": 10,
   "casperFlags": [],
-  "engine": "chromy",
+  "engine": "chrome",
   "report": ["browser"],
   "debug": false,
   "debugWindow": false

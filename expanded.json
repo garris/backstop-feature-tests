@@ -1,0 +1,44 @@
+{
+  "id": "sanity_test",
+  "viewports": [
+    {
+      "name": "phone",
+      "width": 640,
+      "height": 480
+    }
+  ],
+  "onBeforeScript": "",
+  "onReadyScript": "",
+  "scenarios": [
+    {
+      "label": "expandedImg",
+      "url": "https://www.shutterstock.com/search?searchterm=nature&search_source=base_search_form&language=en&sort=popular&image_type=all&safe=true",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectorExpansion": true,
+      "selectors": [
+        "img"
+      ],
+      "readySelector": "",
+      "readyEvent": "",
+      "delay": null,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions" : true,
+      "onBeforeScript": "",
+      "onReadyScript": ""
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report"
+  },
+  "asyncCaptureLimit": 10,
+  "casperFlags": [],
+  "engine": "chromy",
+  "report": ["browser"],
+  "debug": false,
+  "debugWindow": true
+}
