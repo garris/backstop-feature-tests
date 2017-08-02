@@ -32,9 +32,7 @@
       "delay": null,
       "misMatchThreshold" : 0.1,
       "requireSameDimensions" : true,
-      "onBeforeScript": "",
-      "onReadyScript": "",
-      "hostFlags": ["--ignore-certificate-errors"]
+      "onBeforeScript": ""
     },
     {
       "label": "noSelectors_noReadyOrDelayProps",
@@ -124,6 +122,25 @@
       "onReadyScript": ""
     },
     {
+      "label": "isExpanded_viewport",
+      "url": "./examples/featureTests/index.html",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectorExpansion": true,
+      "selectors": [
+        "viewport",
+        ".pagination",
+        ".page-item .page-link"
+      ],
+      "readySelector": "body._READY",
+      "readyEvent": "",
+      "delay": null,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions" : true,
+      "onBeforeScript": "",
+      "onReadyScript": ""
+    },
+    {
       "label": "notVisible",
       "url": "./examples/featureTests/index.html",
       "hideSelectors": [],
@@ -146,6 +163,23 @@
       "hideSelectors": [],
       "removeSelectors": [],
       "selectorExpansion": false,
+      "selectors": [
+        ".monkey"
+      ],
+      "readySelector": "body._READY",
+      "readyEvent": "",
+      "delay": null,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions" : true,
+      "onBeforeScript": "",
+      "onReadyScript": ""
+    },
+    {
+      "label": "notFound_expanded",
+      "url": "./examples/featureTests/index.html",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectorExpansion": true,
       "selectors": [
         ".monkey"
       ],
@@ -257,6 +291,8 @@
     "ci_report": "backstop_data/ci_report"
   },
   "asyncCaptureLimit": 10,
+  "onReadyScript": "",
+  "hostFlags": ["--ignore-certificate-errors"],
   "casperFlags": [],
   "engine": "chrome",
   "report": ["browser"],
